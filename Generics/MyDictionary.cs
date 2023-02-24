@@ -25,14 +25,13 @@ namespace Generics
                 keys[i] = tempKeyArray[i];
 
             }
+            keys[keys.Length - 1] = key;
 
             for (int i = 0; i < tempValueArray.Length; i++)
             {
                 values[i] = tempValueArray[i];
 
             }
-
-            keys[keys.Length - 1] = key;
 
             values[values.Length - 1] = value;
         }
